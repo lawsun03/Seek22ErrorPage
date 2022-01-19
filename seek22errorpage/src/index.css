@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(149, 170, 137);
+  /* background-color: #c27644; */
+  /* background-color: #ffff; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "Baskville";
+  src: url("./fonts/BASKVILL.TTF");
+}
+
+@font-face {
+  font-family: "BalboaPlus-Fill";
+  src: url("./fonts/Momentum/BalboaPlus-Fill.otf");
+}
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("./fonts/Momentum/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "Gotham-Book";
+  src: url("./fonts/Momentum/Gotham-Book.otf");
+}
+
+/*
+@font-face {
+  font-family: "OpenSans-ExtraBold";
+  src: url("./fonts/Rasmussen/OpenSans-ExtraBold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("./fonts/Rasmussen/OpenSans-Bold.ttf") format('truetype');
+}
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("./fonts/Rasmussen/OpenSans-Regular.ttf") format('truetype');
+} */
+
+@font-face {
+  font-family: "Interstate-Black";
+  src: url("./fonts/Lambda/Interstate-Black.ttf");
+}
+
+@font-face {
+  font-family: "Interstate-Regular";
+  src: url("./fonts/Lambda/Interstate-regular.ttf");
+}
+
+@font-face {
+  font-family: "Interstate-Bold";
+  src: url("./fonts/Lambda/Interstate-Bold.ttf");
+}

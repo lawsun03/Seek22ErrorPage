@@ -1,0 +1,67 @@
+.error-page-main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 20px;
+  color: white;
+}
+
+.col-1 {
+  padding-left: 50px;
+}
+
+.col-2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1-message {
+  font-family: "Baskville", sans-serif;
+  font-size: 8em;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
+}
+
+.h2-message {
+  font-family: "Interstate-Regular", sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 1.6em;
+}
+
+p {
+  font-family: "Gotham-Book", sans-serif;
+  font-size: 1.4em;
+  /* letter-spacing: 0.1rem; */
+  font-weight: 400;
+}
+
+.error-image {
+  padding-top: 50px;
+  width: 75%;
+  height: 75%;
+  object-fit: cover;
+}
+
+a.backup-page-link {
+  cursor: pointer;
+  color: #c27644;
+  text-decoration: underline;
+}
+
+@media screen and (max-device-width: 667px) and (min-device-width: 375px) {
+  .error-page-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .h1-message {
+    font-size: 4em;
+  }
+  .h2-message {
+    font-size: 1.4em;
+  }
+  p {
+    font-size: 1em;
+  }
+}
