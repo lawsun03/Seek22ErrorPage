@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <div>
       <nav className="navbar">
-        <img className="navbar-logo" src="seek22logo.png" alt="logo" />
+        <img className="navbar-logo" src="seek22logo_1.svg" alt="logo" />
         <div className="lg: visible">
           <ul className="social-media-container">
             <li className="social-media-icons">

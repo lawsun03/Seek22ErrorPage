@@ -8,27 +8,17 @@ function ErrorPage() {
   return (
     <div className="error-page-main">
       <div className="col-1">
-        <h1 className="h1-message">Oh No!</h1>
-        <h2 className="h2-message">Well, this is unexpected...</h2>
-        <h2 className="h2-message">
-          Error code: 500 <br />
-        </h2>
+        <h1 className="h1-message">Error code: 500</h1>
         <p>
-          An error has occurred and we're working to fix the problem!
-          <br />
-          We'll be up and running shortly.
-        </p>
-        <p>
-          Please visit our{" "}
+          You’re almost there click on{" "}
           <a className="backup-page-link" href={backupPage}>
-            website
+            link
           </a>{" "}
-          for additional information.
+          the to view the SEEK22 live broadcast.
         </p>
-        <p>Thank you for your patience!</p>{" "}
       </div>
-      <div className="col-2">
-        <img className="error-image" src="placeholder1.png" alt="error" />
+      <div className="image-container col-2 flex justify-center">
+        <img className="error-image" src="fish-2.png" alt="error" />
       </div>
     </div>
   );

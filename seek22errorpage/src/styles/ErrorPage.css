@@ -2,12 +2,13 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 20px;
   color: white;
+  height: 100%;
 }
 
 .col-1 {
   padding-left: 50px;
+  height: 100%;
 }
 
 .col-2 {
@@ -19,7 +20,8 @@
 
 .h1-message {
   font-family: "Baskville", sans-serif;
-  font-size: 8em;
+  font-size: 5em;
+  font-weight: 800;
   margin-top: 0.3em;
   margin-bottom: 0.3em;
 }
@@ -32,16 +34,21 @@
 
 p {
   font-family: "Gotham-Book", sans-serif;
-  font-size: 1.4em;
+  font-size: 1.8em;
   /* letter-spacing: 0.1rem; */
   font-weight: 400;
 }
 
 .error-image {
-  padding-top: 50px;
-  width: 75%;
-  height: 75%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: contain;
+  width: 700px;
+}
+
+.image-container {
+  max-height: 100%;
+  margin-top: 30px;
+  padding-top: 30px;
 }
 
 a.backup-page-link {
@@ -50,7 +57,7 @@ a.backup-page-link {
   text-decoration: underline;
 }
 
-@media screen and (max-device-width: 667px) and (min-device-width: 375px) {
+@media only screen and (max-width: 600px) {
   .error-page-main {
     display: flex;
     flex-direction: column;
@@ -62,6 +69,9 @@ a.backup-page-link {
     font-size: 1.4em;
   }
   p {
-    font-size: 1em;
+    font-size: 1.4em;
+  }
+  .image-container {
+    width: 450px;
   }
 }
